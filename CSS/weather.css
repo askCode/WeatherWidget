@@ -1,0 +1,95 @@
+body {
+    font: 100% arial, sans-serif;
+}
+
+input {
+    margin: 6px;
+    border-color: #FFFF66;
+    border-width: 1px;
+    font: 100% arial, sans-serif;
+}
+
+.button{
+	border: none;
+	border-radius: 2px;
+	padding: 2px 3px;
+	box-shadow: 4px 5px 5px rgba(0,0,0,5.5);
+}
+
+input[type="button"]:hover{
+	background: #9999FF;	
+}
+
+select:hover{
+	background: #AFEEEE;
+}
+
+.title {
+    background-color: #1E90FF; /* #FFD700;*/
+    text-indent: 7px;
+    margin: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.toolbar {
+    padding: 5px;
+}
+
+.list {
+    padding: 5px;
+}
+
+.section {
+    background-color: white;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    margin: 3px;
+    border: 1px solid gray;
+}
+
+/*
+.outlook{
+	width: 30%;
+	float: left;
+	font-size: 10px;
+	color: blue;
+	text-align: left;
+	padding: 4px;
+}
+.details{
+	margin-left: 5px;
+	font-size: 10px;
+	width: 65%;
+	padding: 4px;
+}
+*/
+.monitor {
+	color: white;
+    background-color: #87CEFA; /*#F9F7BA;*/
+    float: left;
+    -moz-box-shadow: 7px 7px 8px #818181;
+    /* browser specific CSS, generally avoid these */
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.log {
+    clear: both;
+    float: left;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.numeric {
+    font: 100% arial, sans-serif;
+    text-align:right;
+    float:right;
+}
+
+.section_label {
+    font: 100% arial, sans-serif;
+    padding-left: 2px;
+}
